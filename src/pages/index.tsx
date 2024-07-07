@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import nextConfig from "../../next.config.mjs";
 const BASE_PATH = nextConfig.basePath || "";
 import { Inter } from "next/font/google";
@@ -23,28 +23,28 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
-            <Image
+            <img
               src={`${BASE_PATH}/vercel.svg`}
               // src="/vercel.svg"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
               height={24}
-              priority
+              // priority
             />
           </a>
         </div>
       </div>
 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
+        <img
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src={`${BASE_PATH}/next.svg`}
           // src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
-          priority
+          // priority
         />
       </div>
 
